@@ -7,7 +7,7 @@ public class Main {
         User user = program.signIn();
 
         if (user == null) {
-            System.out.println("Вы ввели неверный логин или пароль!");
+            System.out.println("Введены неверные данные");
         } else {
             System.out.println("Добро пожаловать!");
 
