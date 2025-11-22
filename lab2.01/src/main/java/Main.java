@@ -9,7 +9,7 @@ public class Main {
         if (user == null) {
             System.out.println("Введены неверные данные");
         } else {
-            System.out.println("Вы успешно афторизованы");
+            System.out.println("Добро пожаловать!");
 
             Work work = new Work(user);
             work.showMenu();
